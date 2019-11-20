@@ -20,14 +20,16 @@ use Cstopery\EasyTaoKe\Factory;
 use Cstopery\EasyTaoKe\TaoBao\Request\TbkItemInfoGetRequest;
 
 $taobaoConfig = [
-    'app_key' => '25660213',
-    'app_secret' => 'd3a6a3ea6668e4b8f1e0bc9bd3a1650b',
+    'app_key' => '25660213',  // app_key
+    'app_secret' => 'd3a6a3ea6668e4b8f1e0bc9bd3a1650b',  // app_secret
     'redirect_url' => 'http://local.test/callback',  // 根据实际填写回调 url
-    'format' => 'json',
+    'format' => 'json',  // 格式
 ];
+
+// 上述 `app_key` 与 `app_secret` 并不能使用，请根据申请的淘宝客账号实际填写
 $client = Factory::taobao($taobaoConfig);
 $req = new TbkItemInfoGetRequest();
-$numIds = '556633720749';  // 商品ID串，用,分割，最大40个
+$numIids = '546695379897';  // 商品ID串，用,分割，最大40个
 $req->setNumIids($numIids);
 return $client->execute($req);
 ```
