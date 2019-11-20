@@ -3,10 +3,8 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
-class DdkGoodsRecommendGetRequest implements  RequestInterface
+class DdkGoodsRecommendGetRequest implements RequestInterface
 {
-
     private $type = 'pdd.ddk.goods.recommend.get';
 
     private $offset;

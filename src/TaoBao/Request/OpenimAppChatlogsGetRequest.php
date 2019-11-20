@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.app.chatlogs.get request
  *
@@ -89,12 +90,11 @@ class OpenimAppChatlogsGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->beg, "beg");
-        RequestCheckUtil::checkNotNull ($this->count, "count");
-        RequestCheckUtil::checkMaxValue ($this->count, 1000, "count");
-        RequestCheckUtil::checkMinValue ($this->count, 1, "count");
-        RequestCheckUtil::checkNotNull ($this->end, "end");
+        RequestCheckUtil::checkNotNull($this->beg, "beg");
+        RequestCheckUtil::checkNotNull($this->count, "count");
+        RequestCheckUtil::checkMaxValue($this->count, 1000, "count");
+        RequestCheckUtil::checkMinValue($this->count, 1, "count");
+        RequestCheckUtil::checkNotNull($this->end, "end");
     }
 
     public function putOtherTextParam($key, $value)

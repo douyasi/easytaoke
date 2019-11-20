@@ -12,7 +12,6 @@ use Douyasi\EasyTaoKe\SuNing\SelectSuningRequest;
 
 class UnionInfomationQueryRequest extends SelectSuningRequest
 {
-
     public function getApiMethodName()
     {
         return 'suning.netalliance.unioninfomation.query';
@@ -32,7 +31,4 @@ class UnionInfomationQueryRequest extends SelectSuningRequest
     {
         return "queryUnionInfomation";
     }
-
 }
-
-?>

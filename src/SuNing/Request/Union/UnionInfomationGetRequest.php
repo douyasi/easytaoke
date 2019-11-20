@@ -49,7 +49,4 @@ class UnionInfomationGetRequest extends SuningRequest
     {
         return "getUnionInfomation";
     }
-
 }
-
-?>

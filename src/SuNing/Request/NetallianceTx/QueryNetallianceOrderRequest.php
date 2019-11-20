@@ -82,7 +82,4 @@ class QueryNetallianceOrderRequest extends SelectSuningRequest
     {
         return "queryOrder";
     }
-
 }
-
-?>

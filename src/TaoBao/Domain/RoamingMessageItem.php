@@ -8,15 +8,14 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class RoamingMessageItem
 {
-	
-	/** 
-	 * 节点类型
-	 **/
-	public $type;
-	
-	/** 
-	 * 值
-	 **/
-	public $value;	
+    
+    /**
+     * 节点类型
+     **/
+    public $type;
+    
+    /**
+     * 值
+     **/
+    public $value;
 }
-?>

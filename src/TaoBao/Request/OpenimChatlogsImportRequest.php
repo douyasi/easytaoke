@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.chatlogs.import request
  *
@@ -41,7 +42,6 @@ class OpenimChatlogsImportRequest
 
     public function check()
     {
-
     }
 
     public function putOtherTextParam($key, $value)

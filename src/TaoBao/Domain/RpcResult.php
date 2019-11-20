@@ -8,10 +8,9 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class RpcResult
 {
-	
-	/** 
-	 * data
-	 **/
-	public $data;	
+    
+    /**
+     * data
+     **/
+    public $data;
 }
-?>

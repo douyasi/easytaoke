@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\JingDong\Request;
 
 use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
-
 /**
  * Class JdUnionGoodsJingfenQueryRequest
  * @package Douyasi\EasyTaoKe\JingDong\Request
@@ -142,12 +141,10 @@ class JdUnionGoodsJingfenQueryRequest implements RequestInterface
             'pageIndex' => $this->pageIndex
         ];
 
-        return json_encode ([
-            'goodsReq' => array_filter ($params, function ($val) {
+        return json_encode([
+            'goodsReq' => array_filter($params, function ($val) {
                 return $val != null;
             })
         ]);
     }
-
-
 }

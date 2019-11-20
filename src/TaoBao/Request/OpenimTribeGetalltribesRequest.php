@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.tribe.getalltribes request
  *
@@ -57,9 +58,8 @@ class OpenimTribeGetalltribesRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->tribeTypes, "tribeTypes");
-        RequestCheckUtil::checkMaxListSize ($this->tribeTypes, 20, "tribeTypes");
+        RequestCheckUtil::checkNotNull($this->tribeTypes, "tribeTypes");
+        RequestCheckUtil::checkMaxListSize($this->tribeTypes, 20, "tribeTypes");
     }
 
     public function putOtherTextParam($key, $value)

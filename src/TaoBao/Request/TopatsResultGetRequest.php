@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.topats.result.get request
  *
@@ -41,8 +42,7 @@ class TopatsResultGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->taskId, "taskId");
+        RequestCheckUtil::checkNotNull($this->taskId, "taskId");
     }
 
     public function putOtherTextParam($key, $value)

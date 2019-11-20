@@ -83,7 +83,4 @@ class ThirdpartypromotionGetRequest extends SuningRequest
     {
         return "getThirdpartygetpromotion";
     }
-
 }
-
-?>

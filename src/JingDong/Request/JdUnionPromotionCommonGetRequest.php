@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\JingDong\Request;
 
 use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
-
 /**
  * Class JdUnionPromotionCommonGetRequest
  * @package Douyasi\EasyTaoKe\JingDong\Request
@@ -197,11 +196,9 @@ class JdUnionPromotionCommonGetRequest implements RequestInterface
         ];
 
         return json_encode([
-            'promotionCodeReq' => array_filter ($params, function ($val) {
+            'promotionCodeReq' => array_filter($params, function ($val) {
                 return $val != null;
             })
         ]);
     }
-
-
 }

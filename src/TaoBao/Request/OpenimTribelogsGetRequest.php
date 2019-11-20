@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.tribelogs.get request
  *
@@ -105,11 +106,10 @@ class OpenimTribelogsGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->begin, "begin");
-        RequestCheckUtil::checkNotNull ($this->count, "count");
-        RequestCheckUtil::checkNotNull ($this->end, "end");
-        RequestCheckUtil::checkNotNull ($this->tribeId, "tribeId");
+        RequestCheckUtil::checkNotNull($this->begin, "begin");
+        RequestCheckUtil::checkNotNull($this->count, "count");
+        RequestCheckUtil::checkNotNull($this->end, "end");
+        RequestCheckUtil::checkNotNull($this->tribeId, "tribeId");
     }
 
     public function putOtherTextParam($key, $value)

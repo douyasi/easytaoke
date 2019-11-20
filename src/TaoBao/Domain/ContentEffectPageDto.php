@@ -8,10 +8,9 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class ContentEffectPageDto
 {
-	
-	/** 
-	 * contentEffectList
-	 **/
-	public $content_effect_list;	
+    
+    /**
+     * contentEffectList
+     **/
+    public $content_effect_list;
 }
-?>

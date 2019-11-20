@@ -8,7 +8,6 @@
 
 namespace Douyasi\EasyTaoKe\PinDuoDuo;
 
-
 interface RequestInterface
 {
     public function getParams();

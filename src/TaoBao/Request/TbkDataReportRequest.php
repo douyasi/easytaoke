@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.data.report request
  *
@@ -57,8 +58,7 @@ class TbkDataReportRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->data, "data");
+        RequestCheckUtil::checkNotNull($this->data, "data");
     }
 
     public function putOtherTextParam($key, $value)

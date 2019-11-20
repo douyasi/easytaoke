@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.tribe.setmembernick request
  *
@@ -89,9 +90,8 @@ class OpenimTribeSetmembernickRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->nick, "nick");
-        RequestCheckUtil::checkNotNull ($this->tribeId, "tribeId");
+        RequestCheckUtil::checkNotNull($this->nick, "nick");
+        RequestCheckUtil::checkNotNull($this->tribeId, "tribeId");
     }
 
     public function putOtherTextParam($key, $value)

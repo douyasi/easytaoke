@@ -9,8 +9,7 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
-class DdkRpPromUrlGenerateRequest  implements RequestInterface
+class DdkRpPromUrlGenerateRequest implements RequestInterface
 {
     /**
      * 生成红包推广链接接口

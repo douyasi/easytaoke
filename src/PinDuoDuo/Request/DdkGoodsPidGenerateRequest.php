@@ -3,8 +3,7 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
-class DdkGoodsPidGenerateRequest implements  RequestInterface
+class DdkGoodsPidGenerateRequest implements RequestInterface
 {
     /**
      * 创建多多进宝推广位

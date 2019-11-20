@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.sc.coupon.brand.recommend request
  *
@@ -121,9 +122,8 @@ class TbkScCouponBrandRecommendRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->adzoneId, "adzoneId");
-        RequestCheckUtil::checkNotNull ($this->siteId, "siteId");
+        RequestCheckUtil::checkNotNull($this->adzoneId, "adzoneId");
+        RequestCheckUtil::checkNotNull($this->siteId, "siteId");
     }
 
     public function putOtherTextParam($key, $value)

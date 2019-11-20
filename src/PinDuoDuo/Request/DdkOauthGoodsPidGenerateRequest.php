@@ -3,7 +3,6 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
 class DdkOauthGoodsPidGenerateRequest implements RequestInterface
 {
     private $type = 'pdd.ddk.oauth.goods.pid.generate';

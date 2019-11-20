@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\JingDong\Request;
 
 use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
-
 /**
  * Class JdUnionPositionCreateRequest
  * @package Douyasi\EasyTaoKe\JingDong\Request
@@ -176,11 +175,9 @@ class JdUnionPositionCreateRequest implements RequestInterface
         ];
 
         return json_encode([
-            'positionReq' => array_filter ($params, function ($val) {
+            'positionReq' => array_filter($params, function ($val) {
                 return $val != null;
             })
         ]);
     }
-
-
 }

@@ -68,7 +68,4 @@ class MerchantcommodityQueryRequest extends SelectSuningRequest
     {
         return "queryMerchantcommodity";
     }
-
 }
-
-?>

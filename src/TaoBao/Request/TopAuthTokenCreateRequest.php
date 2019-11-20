@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.top.auth.token.create request
  *
@@ -57,8 +58,7 @@ class TopAuthTokenCreateRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->code, "code");
+        RequestCheckUtil::checkNotNull($this->code, "code");
     }
 
     public function putOtherTextParam($key, $value)

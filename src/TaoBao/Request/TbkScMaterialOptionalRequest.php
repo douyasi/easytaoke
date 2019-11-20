@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.sc.material.optional request
  *
@@ -423,10 +424,9 @@ class TbkScMaterialOptionalRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->adzoneId, "adzoneId");
-        RequestCheckUtil::checkNotNull ($this->siteId, "siteId");
-        RequestCheckUtil::checkMaxValue ($this->startDsr, 50000, "startDsr");
+        RequestCheckUtil::checkNotNull($this->adzoneId, "adzoneId");
+        RequestCheckUtil::checkNotNull($this->siteId, "siteId");
+        RequestCheckUtil::checkMaxValue($this->startDsr, 50000, "startDsr");
     }
 
     public function putOtherTextParam($key, $value)

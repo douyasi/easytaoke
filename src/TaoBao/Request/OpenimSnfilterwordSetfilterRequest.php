@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.snfilterword.setfilter request
  *
@@ -73,9 +74,8 @@ class OpenimSnfilterwordSetfilterRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->creator, "creator");
-        RequestCheckUtil::checkNotNull ($this->filterword, "filterword");
+        RequestCheckUtil::checkNotNull($this->creator, "creator");
+        RequestCheckUtil::checkNotNull($this->filterword, "filterword");
     }
 
     public function putOtherTextParam($key, $value)

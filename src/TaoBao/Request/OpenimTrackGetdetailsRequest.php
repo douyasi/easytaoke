@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.track.getdetails request
  *
@@ -89,10 +90,9 @@ class OpenimTrackGetdetailsRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->endtime, "endtime");
-        RequestCheckUtil::checkNotNull ($this->starttime, "starttime");
-        RequestCheckUtil::checkNotNull ($this->uid, "uid");
+        RequestCheckUtil::checkNotNull($this->endtime, "endtime");
+        RequestCheckUtil::checkNotNull($this->starttime, "starttime");
+        RequestCheckUtil::checkNotNull($this->uid, "uid");
     }
 
     public function putOtherTextParam($key, $value)

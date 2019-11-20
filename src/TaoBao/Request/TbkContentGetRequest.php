@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.content.get request
  *
@@ -153,12 +154,11 @@ class TbkContentGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->adzoneId, "adzoneId");
-        RequestCheckUtil::checkMaxValue ($this->imageHeight, 1000, "imageHeight");
-        RequestCheckUtil::checkMinValue ($this->imageHeight, 10, "imageHeight");
-        RequestCheckUtil::checkMaxValue ($this->imageWidth, 1000, "imageWidth");
-        RequestCheckUtil::checkMinValue ($this->imageWidth, 10, "imageWidth");
+        RequestCheckUtil::checkNotNull($this->adzoneId, "adzoneId");
+        RequestCheckUtil::checkMaxValue($this->imageHeight, 1000, "imageHeight");
+        RequestCheckUtil::checkMinValue($this->imageHeight, 10, "imageHeight");
+        RequestCheckUtil::checkMaxValue($this->imageWidth, 1000, "imageWidth");
+        RequestCheckUtil::checkMinValue($this->imageWidth, 10, "imageWidth");
     }
 
     public function putOtherTextParam($key, $value)

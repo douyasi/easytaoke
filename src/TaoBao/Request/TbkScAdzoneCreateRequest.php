@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.adzone.create request
  *
@@ -57,10 +58,9 @@ class TbkScAdzoneCreateRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->adzoneName, "adzoneName");
-        RequestCheckUtil::checkMaxLength ($this->adzoneName, 64, "adzoneName");
-        RequestCheckUtil::checkNotNull ($this->siteId, "siteId");
+        RequestCheckUtil::checkNotNull($this->adzoneName, "adzoneName");
+        RequestCheckUtil::checkMaxLength($this->adzoneName, 64, "adzoneName");
+        RequestCheckUtil::checkNotNull($this->siteId, "siteId");
     }
 
     public function putOtherTextParam($key, $value)

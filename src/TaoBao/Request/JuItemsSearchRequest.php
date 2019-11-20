@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.ju.items.search request
  *
@@ -41,7 +42,6 @@ class JuItemsSearchRequest
 
     public function check()
     {
-
     }
 
     public function putOtherTextParam($key, $value)

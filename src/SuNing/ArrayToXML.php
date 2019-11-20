@@ -5,7 +5,7 @@ namespace Douyasi\EasyTaoKe\SuNing;
 class ArrayToXML
 {
     //文档对象
-    private static $doc = NULL;
+    private static $doc = null;
     //版本号
     private static $version = '1.0';
 
@@ -52,7 +52,9 @@ class ArrayToXML
      */
     private static function convert($array, $nodeName, $parentNode)
     {
-        if (!is_array($array)) return false;
+        if (!is_array($array)) {
+            return false;
+        }
 
         //创建父节点
         $node = self::createNode($nodeName);
@@ -88,7 +90,7 @@ class ArrayToXML
 
     private static function createNode($name)
     {
-        $node = NULL;
+        $node = null;
 
         //如果是字符串，则创建节点
         if (!is_numeric($name)) {
@@ -110,7 +112,7 @@ class ArrayToXML
      */
     private static function createValue($value)
     {
-        $textNode = NULL;
+        $textNode = null;
 
         //如果是bool型，则转换为字符串
         if (true === $value || false === $value) {
@@ -127,5 +129,3 @@ class ArrayToXML
         return $textNode;
     }
 }
-
-?>

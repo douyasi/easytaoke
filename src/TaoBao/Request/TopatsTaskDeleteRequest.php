@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.topats.task.delete request
  *
@@ -41,8 +42,7 @@ class TopatsTaskDeleteRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->taskId, "taskId");
+        RequestCheckUtil::checkNotNull($this->taskId, "taskId");
     }
 
     public function putOtherTextParam($key, $value)

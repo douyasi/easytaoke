@@ -49,7 +49,4 @@ class GetlevelinfoQueryRequest extends SuningRequest
     {
         return "queryGetlevelinfo";
     }
-
 }
-
-?>

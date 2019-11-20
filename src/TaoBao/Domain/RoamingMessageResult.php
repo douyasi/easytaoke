@@ -8,15 +8,14 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class RoamingMessageResult
 {
-	
-	/** 
-	 * 消息列表
-	 **/
-	public $messages;
-	
-	/** 
-	 * 下次迭代key
-	 **/
-	public $next_key;	
+    
+    /**
+     * 消息列表
+     **/
+    public $messages;
+    
+    /**
+     * 下次迭代key
+     **/
+    public $next_key;
 }
-?>

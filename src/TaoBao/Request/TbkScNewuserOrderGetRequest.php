@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.sc.newuser.order.get request
  *
@@ -137,10 +138,9 @@ class TbkScNewuserOrderGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->activityId, "activityId");
-        RequestCheckUtil::checkMaxValue ($this->pageSize, 100, "pageSize");
-        RequestCheckUtil::checkMinValue ($this->pageSize, 1, "pageSize");
+        RequestCheckUtil::checkNotNull($this->activityId, "activityId");
+        RequestCheckUtil::checkMaxValue($this->pageSize, 100, "pageSize");
+        RequestCheckUtil::checkMinValue($this->pageSize, 1, "pageSize");
     }
 
     public function putOtherTextParam($key, $value)

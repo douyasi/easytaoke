@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.files.get request
  *
@@ -73,9 +74,8 @@ class FilesGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->endDate, "endDate");
-        RequestCheckUtil::checkNotNull ($this->startDate, "startDate");
+        RequestCheckUtil::checkNotNull($this->endDate, "endDate");
+        RequestCheckUtil::checkNotNull($this->startDate, "startDate");
     }
 
     public function putOtherTextParam($key, $value)

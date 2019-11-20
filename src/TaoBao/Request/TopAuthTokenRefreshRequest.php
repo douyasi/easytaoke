@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.top.auth.token.refresh request
  *
@@ -41,8 +42,7 @@ class TopAuthTokenRefreshRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->refreshToken, "refreshToken");
+        RequestCheckUtil::checkNotNull($this->refreshToken, "refreshToken");
     }
 
     public function putOtherTextParam($key, $value)

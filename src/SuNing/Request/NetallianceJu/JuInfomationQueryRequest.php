@@ -32,7 +32,4 @@ class JuInfomationQueryRequest extends SelectSuningRequest
     {
         return "queryJuInfomation";
     }
-
 }
-
-?>

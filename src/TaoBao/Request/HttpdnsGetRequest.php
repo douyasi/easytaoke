@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.httpdns.get request
  *
@@ -11,7 +12,6 @@ use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
  */
 class HttpdnsGetRequest
 {
-
     private $apiParas = array();
 
     public function getApiMethodName()
@@ -26,7 +26,6 @@ class HttpdnsGetRequest
 
     public function check()
     {
-
     }
 
     public function putOtherTextParam($key, $value)

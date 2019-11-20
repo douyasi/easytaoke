@@ -3,8 +3,7 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
-class DdkGoodsPidQueryRequest implements  RequestInterface
+class DdkGoodsPidQueryRequest implements RequestInterface
 {
     /**
      * 查询已经生成的推广位信息

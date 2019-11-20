@@ -50,7 +50,4 @@ class GetNetallianceOrderSettleRequest extends SuningRequest
     {
         return "getOrderSettle";
     }
-
 }
-
-?>

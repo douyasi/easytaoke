@@ -3,8 +3,7 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
-class DdkGoodsSearchRequest implements  RequestInterface
+class DdkGoodsSearchRequest implements RequestInterface
 {
     /**
      * 多多进宝商品查询

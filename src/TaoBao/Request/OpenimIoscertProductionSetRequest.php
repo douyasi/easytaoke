@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.ioscert.production.set request
  *
@@ -57,9 +58,8 @@ class OpenimIoscertProductionSetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->cert, "cert");
-        RequestCheckUtil::checkNotNull ($this->password, "password");
+        RequestCheckUtil::checkNotNull($this->cert, "cert");
+        RequestCheckUtil::checkNotNull($this->password, "password");
     }
 
     public function putOtherTextParam($key, $value)

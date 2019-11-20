@@ -3,8 +3,7 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
-class DdkGoodsPromotionUrlGenerateRequest implements  RequestInterface
+class DdkGoodsPromotionUrlGenerateRequest implements RequestInterface
 {
 
     /**

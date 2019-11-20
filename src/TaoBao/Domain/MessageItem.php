@@ -8,15 +8,14 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class MessageItem
 {
-	
-	/** 
-	 * 节点类型
-	 **/
-	public $type;
-	
-	/** 
-	 * 节点值
-	 **/
-	public $value;	
+    
+    /**
+     * 节点类型
+     **/
+    public $type;
+    
+    /**
+     * 节点值
+     **/
+    public $value;
 }
-?>

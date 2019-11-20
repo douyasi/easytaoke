@@ -67,7 +67,4 @@ class SnMemberLevelGetRequest extends SuningRequest
     {
         return "getSnMemberLevel";
     }
-
 }
-
-?>

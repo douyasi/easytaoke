@@ -8,10 +8,9 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class Trackparams
 {
-	
-	/** 
-	 * empty
-	 **/
-	public $empty;	
+    
+    /**
+     * empty
+     **/
+    public $empty;
 }
-?>

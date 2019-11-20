@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\JingDong\Request;
 
 use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
-
 /**
  * Class JdUnionPromotionByunionidGetRequest
  * @package Douyasi\EasyTaoKe\JingDong\Request
@@ -20,7 +19,7 @@ class JdUnionPromotionByunionidGetRequest implements RequestInterface
 
     /**
      * 子联盟ID（需要联系运营开通权限才能拿到数据）
-     * @var 
+     * @var
      */
     private $subUnionId;
     
@@ -175,11 +174,9 @@ class JdUnionPromotionByunionidGetRequest implements RequestInterface
         ];
 
         return json_encode([
-            'promotionCodeReq' => array_filter ($params, function ($val) {
+            'promotionCodeReq' => array_filter($params, function ($val) {
                 return $val != null;
             })
         ]);
     }
-
-
 }

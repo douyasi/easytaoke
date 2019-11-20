@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.wireless.share.tpwd.query request
  *
@@ -41,8 +42,7 @@ class WirelessShareTpwdQueryRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->passwordContent, "passwordContent");
+        RequestCheckUtil::checkNotNull($this->passwordContent, "passwordContent");
     }
 
     public function putOtherTextParam($key, $value)

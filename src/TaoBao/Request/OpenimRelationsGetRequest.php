@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.relations.get request
  *
@@ -73,9 +74,8 @@ class OpenimRelationsGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->begDate, "begDate");
-        RequestCheckUtil::checkNotNull ($this->endDate, "endDate");
+        RequestCheckUtil::checkNotNull($this->begDate, "begDate");
+        RequestCheckUtil::checkNotNull($this->endDate, "endDate");
     }
 
     public function putOtherTextParam($key, $value)

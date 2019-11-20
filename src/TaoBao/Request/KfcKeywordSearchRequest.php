@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.kfc.keyword.search request
  *
@@ -78,8 +79,7 @@ class KfcKeywordSearchRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->content, "content");
+        RequestCheckUtil::checkNotNull($this->content, "content");
     }
 
     public function putOtherTextParam($key, $value)

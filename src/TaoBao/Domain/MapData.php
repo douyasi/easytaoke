@@ -8,10 +8,9 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class MapData
 {
-	
-	/** 
-	 * password
-	 **/
-	public $model;	
+    
+    /**
+     * password
+     **/
+    public $model;
 }
-?>

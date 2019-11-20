@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\JingDong\Request;
 
 use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
-
 /**
  * Class JdUnionUserPidGetRequest
  * @package Douyasi\EasyTaoKe\JingDong\Request
@@ -151,11 +150,9 @@ class JdUnionUserPidGetRequest implements RequestInterface
         ];
 
         return json_encode([
-            'pidReq' => array_filter ($params, function ($val) {
+            'pidReq' => array_filter($params, function ($val) {
                 return $val != null;
             })
         ]);
     }
-
-
 }

@@ -66,7 +66,4 @@ class CustompromotionurlQueryRequest extends SuningRequest
     {
         return "queryCustompromotionurl";
     }
-
 }
-
-?>

@@ -8,10 +8,9 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class Data
 {
-	
-	/** 
-	 * 邀请码
-	 **/
-	public $inviter_code;	
+    
+    /**
+     * 邀请码
+     **/
+    public $inviter_code;
 }
-?>

@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\JingDong\Request;
 
 use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
-
 /**
  * Class JdUnionCategoryGoodsGetRequest
  * @package Douyasi\EasyTaoKe\JingDong\Request
@@ -50,11 +49,9 @@ class JdUnionCategoryGoodsGetRequest implements RequestInterface
         ];
 
         return json_encode([
-            'req' => array_filter ($params, function ($val) {
+            'req' => array_filter($params, function ($val) {
                 return $val != null;
             })
         ]);
     }
-
-
 }

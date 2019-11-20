@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.dg.item.coupon.get request
  *
@@ -121,9 +122,8 @@ class TbkDgItemCouponGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->adzoneId, "adzoneId");
-        RequestCheckUtil::checkMaxLength ($this->cat, 10, "cat");
+        RequestCheckUtil::checkNotNull($this->adzoneId, "adzoneId");
+        RequestCheckUtil::checkMaxLength($this->cat, 10, "cat");
     }
 
     public function putOtherTextParam($key, $value)

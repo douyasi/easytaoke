@@ -160,5 +160,4 @@ class Application
         curl_close($ch);
         return $response;
     }
-    
 }

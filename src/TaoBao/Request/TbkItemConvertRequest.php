@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.item.get request
  *
@@ -103,8 +104,7 @@ class TbkItemConvertRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->Fields, "fields");
+        RequestCheckUtil::checkNotNull($this->Fields, "fields");
     }
 
     public function putOtherTextParam($key, $value)

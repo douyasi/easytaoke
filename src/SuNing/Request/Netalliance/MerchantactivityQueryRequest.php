@@ -32,7 +32,4 @@ class MerchantactivityQueryRequest extends SelectSuningRequest
     {
         return "queryMerchantactivity";
     }
-
 }
-
-?>

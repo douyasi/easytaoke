@@ -83,7 +83,4 @@ class BindAccountRequest extends SuningRequest
     {
         return "bindAccount";
     }
-
 }
-
-?>

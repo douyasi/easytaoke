@@ -49,7 +49,4 @@ class GetNetallianceOrderRequest extends SuningRequest
     {
         return "getOrder";
     }
-
 }
-
-?>

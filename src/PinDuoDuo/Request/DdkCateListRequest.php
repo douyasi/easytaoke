@@ -3,8 +3,7 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
-class DdkCateListRequest implements  RequestInterface
+class DdkCateListRequest implements RequestInterface
 {
     /**
      * 获得拼多多商品标签列表

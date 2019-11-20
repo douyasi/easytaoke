@@ -177,11 +177,9 @@ class JdUnionOrderQueryRequest implements RequestInterface
         ];
 
         return json_encode([
-            'orderReq' => array_filter ($params, function ($val) {
+            'orderReq' => array_filter($params, function ($val) {
                 return $val != null;
             })
         ]);
     }
-
-
 }

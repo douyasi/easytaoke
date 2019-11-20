@@ -8,7 +8,6 @@
 
 namespace Douyasi\EasyTaoKe\JingDong;
 
-
 interface RequestInterface
 {
     public function getMethod();

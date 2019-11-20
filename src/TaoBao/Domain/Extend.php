@@ -8,10 +8,9 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class Extend
 {
-	
-	/** 
-	 * empty
-	 **/
-	public $empty;	
+    
+    /**
+     * empty
+     **/
+    public $empty;
 }
-?>

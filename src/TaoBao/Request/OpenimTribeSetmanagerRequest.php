@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.tribe.setmanager request
  *
@@ -73,8 +74,7 @@ class OpenimTribeSetmanagerRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->tid, "tid");
+        RequestCheckUtil::checkNotNull($this->tid, "tid");
     }
 
     public function putOtherTextParam($key, $value)

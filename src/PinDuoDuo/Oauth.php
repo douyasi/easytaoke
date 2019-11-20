@@ -1,7 +1,6 @@
 <?php
 namespace Douyasi\EasyTaoKe\PinDuoDuo;
 
-
 class Oauth
 {
     private $sellerCodeUrl = 'http://mms.pinduoduo.com/open.html';
@@ -30,12 +29,12 @@ class Oauth
         }
 //        header('Location: '.$url);
 //        exit();
-        dd($url);
+        // dd($url);
     }
 
     public function getToken($code)
     {
         $url = $this->tokenUrl . '';
-        dd($url);
+        // dd($url);
     }
 }

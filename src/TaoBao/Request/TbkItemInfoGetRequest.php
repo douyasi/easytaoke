@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.item.info.get request
  *
@@ -73,8 +74,7 @@ class TbkItemInfoGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->numIids, "numIids");
+        RequestCheckUtil::checkNotNull($this->numIids, "numIids");
     }
 
     public function putOtherTextParam($key, $value)

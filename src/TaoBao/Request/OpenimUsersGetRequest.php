@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.users.get request
  *
@@ -41,9 +42,8 @@ class OpenimUsersGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->userids, "userids");
-        RequestCheckUtil::checkMaxListSize ($this->userids, 100, "userids");
+        RequestCheckUtil::checkNotNull($this->userids, "userids");
+        RequestCheckUtil::checkMaxListSize($this->userids, 100, "userids");
     }
 
     public function putOtherTextParam($key, $value)

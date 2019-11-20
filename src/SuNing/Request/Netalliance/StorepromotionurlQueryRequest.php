@@ -99,7 +99,4 @@ class StorepromotionurlQueryRequest extends SuningRequest
     {
         return "queryStorepromotionurl";
     }
-
 }
-
-?>

@@ -1,10 +1,9 @@
 <?php
 namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
-
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-class DdkAllOrderListIncrementGetRequest implements  RequestInterface
+class DdkAllOrderListIncrementGetRequest implements RequestInterface
 {
     /**
      * 按照时间段获取授权多多客下面所有多多客的推广订单信息(最近6个小时)

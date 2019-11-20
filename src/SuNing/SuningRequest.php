@@ -36,17 +36,15 @@ abstract class SuningRequest
      * @param
      *            type 请求方式(json或xml)
      */
-    abstract function getApiParams();
+    abstract public function getApiParams();
 
     /**
      * 获取接口方法名称
      */
-    abstract function getApiMethodName();
+    abstract public function getApiMethodName();
 
     /**
      * 数据校验
      */
-    abstract function check();
+    abstract public function check();
 }
-
-?>

@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\JingDong\Request;
 
 use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
-
 /**
  * Class JdUnionGoodsPromotiongoodsinfoQueryRequest
  * @package Douyasi\EasyTaoKe\JingDong\Request
@@ -58,6 +57,4 @@ class JdUnionGoodsPromotiongoodsinfoQueryRequest implements RequestInterface
             'skuIds' => $this->skuIds
         ]);
     }
-
-
 }

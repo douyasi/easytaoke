@@ -8,15 +8,14 @@ namespace Douyasi\EasyTaoKe\TaoBao\Domain;
  */
 class EsMessageResult
 {
-	
-	/** 
-	 * 消息序列
-	 **/
-	public $messages;
-	
-	/** 
-	 * nextkey
-	 **/
-	public $next_key;	
+    
+    /**
+     * 消息序列
+     **/
+    public $messages;
+    
+    /**
+     * nextkey
+     **/
+    public $next_key;
 }
-?>

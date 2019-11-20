@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openuid.change request
  *
@@ -57,9 +58,8 @@ class OpenuidChangeRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->openUid, "openUid");
-        RequestCheckUtil::checkNotNull ($this->targetAppKey, "targetAppKey");
+        RequestCheckUtil::checkNotNull($this->openUid, "openUid");
+        RequestCheckUtil::checkNotNull($this->targetAppKey, "targetAppKey");
     }
 
     public function putOtherTextParam($key, $value)

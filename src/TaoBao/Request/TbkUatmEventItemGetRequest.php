@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.uatm.event.item.get request
  *
@@ -137,10 +138,9 @@ class TbkUatmEventItemGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->adzoneId, "adzoneId");
-        RequestCheckUtil::checkNotNull ($this->eventId, "eventId");
-        RequestCheckUtil::checkNotNull ($this->fields, "fields");
+        RequestCheckUtil::checkNotNull($this->adzoneId, "adzoneId");
+        RequestCheckUtil::checkNotNull($this->eventId, "eventId");
+        RequestCheckUtil::checkNotNull($this->fields, "fields");
     }
 
     public function putOtherTextParam($key, $value)

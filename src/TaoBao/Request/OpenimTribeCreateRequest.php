@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openim.tribe.create request
  *
@@ -105,10 +106,9 @@ class OpenimTribeCreateRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->notice, "notice");
-        RequestCheckUtil::checkNotNull ($this->tribeName, "tribeName");
-        RequestCheckUtil::checkNotNull ($this->tribeType, "tribeType");
+        RequestCheckUtil::checkNotNull($this->notice, "notice");
+        RequestCheckUtil::checkNotNull($this->tribeName, "tribeName");
+        RequestCheckUtil::checkNotNull($this->tribeType, "tribeType");
     }
 
     public function putOtherTextParam($key, $value)

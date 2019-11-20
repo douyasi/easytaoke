@@ -50,7 +50,4 @@ class JuInfomationGetRequest extends SuningRequest
     {
         return "getJuInfomation";
     }
-
 }
-
-?>

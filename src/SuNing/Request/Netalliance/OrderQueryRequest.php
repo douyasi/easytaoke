@@ -87,7 +87,4 @@ class OrderQueryRequest extends SelectSuningRequest
     {
         return "queryOrder";
     }
-
 }
-
-?>

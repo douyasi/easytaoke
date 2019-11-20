@@ -50,7 +50,4 @@ class OrderGetRequest extends SuningRequest
     {
         return "getOrder";
     }
-
 }
-
-?>

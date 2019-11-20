@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.areas.get request
  *
@@ -41,8 +42,7 @@ class AreasGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->fields, "fields");
+        RequestCheckUtil::checkNotNull($this->fields, "fields");
     }
 
     public function putOtherTextParam($key, $value)

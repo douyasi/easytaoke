@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.coupon.get request
  *
@@ -73,7 +74,6 @@ class TbkCouponGetRequest
 
     public function check()
     {
-
     }
 
     public function putOtherTextParam($key, $value)

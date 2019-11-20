@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.shop.recommend.get request
  *
@@ -89,9 +90,8 @@ class TbkShopRecommendGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->fields, "fields");
-        RequestCheckUtil::checkNotNull ($this->userId, "userId");
+        RequestCheckUtil::checkNotNull($this->fields, "fields");
+        RequestCheckUtil::checkNotNull($this->userId, "userId");
     }
 
     public function putOtherTextParam($key, $value)

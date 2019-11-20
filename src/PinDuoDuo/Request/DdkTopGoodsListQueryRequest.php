@@ -4,7 +4,6 @@ namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
 use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
-
 class DdkTopGoodsListQueryRequest implements RequestInterface
 {
     /**

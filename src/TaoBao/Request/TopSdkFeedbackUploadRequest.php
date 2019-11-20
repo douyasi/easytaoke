@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.top.sdk.feedback.upload request
  *
@@ -57,8 +58,7 @@ class TopSdkFeedbackUploadRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->type, "type");
+        RequestCheckUtil::checkNotNull($this->type, "type");
     }
 
     public function putOtherTextParam($key, $value)

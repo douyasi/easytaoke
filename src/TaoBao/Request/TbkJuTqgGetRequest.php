@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.tbk.ju.tqg.get request
  *
@@ -121,11 +122,10 @@ class TbkJuTqgGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->adzoneId, "adzoneId");
-        RequestCheckUtil::checkNotNull ($this->endTime, "endTime");
-        RequestCheckUtil::checkNotNull ($this->fields, "fields");
-        RequestCheckUtil::checkNotNull ($this->startTime, "startTime");
+        RequestCheckUtil::checkNotNull($this->adzoneId, "adzoneId");
+        RequestCheckUtil::checkNotNull($this->endTime, "endTime");
+        RequestCheckUtil::checkNotNull($this->fields, "fields");
+        RequestCheckUtil::checkNotNull($this->startTime, "startTime");
     }
 
     public function putOtherTextParam($key, $value)

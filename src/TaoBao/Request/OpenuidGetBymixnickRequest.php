@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.openuid.get.bymixnick request
  *
@@ -41,8 +42,7 @@ class OpenuidGetBymixnickRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->mixNick, "mixNick");
+        RequestCheckUtil::checkNotNull($this->mixNick, "mixNick");
     }
 
     public function putOtherTextParam($key, $value)

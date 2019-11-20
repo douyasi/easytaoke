@@ -51,7 +51,4 @@ class CouponproductQueryRequest extends SelectSuningRequest
     {
         return "queryCouponproduct";
     }
-
 }
-
-?>

@@ -3,6 +3,7 @@
 namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
 use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
+
 /**
  * TOP API: taobao.top.secret.get request
  *
@@ -73,8 +74,7 @@ class TopSecretGetRequest
 
     public function check()
     {
-
-        RequestCheckUtil::checkNotNull ($this->randomNum, "randomNum");
+        RequestCheckUtil::checkNotNull($this->randomNum, "randomNum");
     }
 
     public function putOtherTextParam($key, $value)

@@ -51,7 +51,4 @@ class UnionInfomationQueryRequest extends SelectSuningRequest
     {
         return "queryUnionInfomation";
     }
-
 }
-
-?>

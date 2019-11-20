@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 namespace Douyasi\EasyTaoKe\SuNing;
 
@@ -45,7 +45,6 @@ class RequestCheckUtil
      */
     public static function checkMaxListSize($value, $maxSize, $fieldName)
     {
-
         if (self::checkEmpty($value)) {
             return;
         }
@@ -61,7 +60,6 @@ class RequestCheckUtil
      */
     public static function checkMaxValue($value, $maxValue, $fieldName)
     {
-
         if (self::checkEmpty($value)) {
             return;
         }
@@ -78,7 +76,6 @@ class RequestCheckUtil
      */
     public static function checkMinValue($value, $minValue, $fieldName)
     {
-
         if (self::checkEmpty($value)) {
             return;
         }
@@ -105,7 +102,6 @@ class RequestCheckUtil
      */
     public static function checkValueInItemList($value, $itemList, $fieldName)
     {
-
         if (self::checkEmpty($value)) {
             return;
         }
@@ -143,7 +139,7 @@ class RequestCheckUtil
         if ($type == 1) {
             $pattern = '/^(\d{4})-(\d{2})-(\d{2})$/';
             $currDate = date('Y-m-d');
-        } else if ($type == 2) {
+        } elseif ($type == 2) {
             $pattern = '/^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})$/';
             $currDate = date('Y-m-d H:i:s');
         }
@@ -271,5 +267,3 @@ class RequestCheckUtil
         }
     }
 }
-
-?>

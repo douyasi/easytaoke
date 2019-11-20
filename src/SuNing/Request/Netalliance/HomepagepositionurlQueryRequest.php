@@ -13,7 +13,6 @@ use Douyasi\EasyTaoKe\SuNing\RequestCheckUtil;
 
 class HomepagepositionurlQueryRequest extends SuningRequest
 {
-
     public function getApiMethodName()
     {
         return 'suning.netalliance.homepagepositionurl.query';
@@ -33,7 +32,4 @@ class HomepagepositionurlQueryRequest extends SuningRequest
     {
         return "queryHomepagepositionurl";
     }
-
 }
-
-?>
