@@ -11,7 +11,7 @@ return [
     'taobao' => [
         'app_key' => '25660213',
         'app_secret' => 'd3a6a3ea6668e4b8f1e0bc9bd3a1650b',
-        'redirect_url' => 'http://ht.test/callback',
+        'redirect_url' => 'http://local.test/callback',
         'format' => 'json',
     ],
     'pinduoduo' => [
