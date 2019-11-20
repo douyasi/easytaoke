@@ -89,7 +89,6 @@ class Application
         }
 
         $params['param_json'] = $request->getParamJson();
-        ;
 
 
         $params['sign'] = $this->generateSign($params);
@@ -169,7 +168,7 @@ class Application
         } else {
             $httpStatusCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
             if (200 !== $httpStatusCode) {
-                abort($httpStatusCode);
+                // abort($httpStatusCode);
             }
         }
         curl_close($ch);
