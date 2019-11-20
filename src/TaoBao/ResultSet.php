@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao;
+namespace Douyasi\EasyTaoKe\TaoBao;
 
 /**
  * 返回的默认类

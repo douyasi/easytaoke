@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao\Domain;
+namespace Douyasi\EasyTaoKe\TaoBao\Domain;
 
 /**
  * 商品信息-商品关联词

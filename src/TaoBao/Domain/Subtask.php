@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao\Domain;
+namespace Douyasi\EasyTaoKe\TaoBao\Domain;
 
 /**
  * 批量异步任务的子任务结果

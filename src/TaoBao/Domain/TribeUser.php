@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao\Domain;
+namespace Douyasi\EasyTaoKe\TaoBao\Domain;
 
 /**
  * OPENIM群成员信息

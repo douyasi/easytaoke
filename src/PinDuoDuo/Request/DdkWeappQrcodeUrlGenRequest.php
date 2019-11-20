@@ -1,13 +1,13 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Cstopery
+ * User: Douyasi
  * Date: 2018/11/19
  * Time: 下午3:03
  */
-namespace Cstopery\EasyTaoKe\PinDuoDuo\Request;
+namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
-use Cstopery\EasyTaoKe\PinDuoDuo\RequestInterface;
+use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
 
 class DdkWeappQrcodeUrlGenRequest implements RequestInterface

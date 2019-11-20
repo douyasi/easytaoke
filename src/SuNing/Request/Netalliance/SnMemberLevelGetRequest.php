@@ -6,10 +6,10 @@
  * @date   2016-7-12
  */
 
-namespace Cstopery\EasyTaoKe\SuNing\Request\Netalliance;
+namespace Douyasi\EasyTaoKe\SuNing\Request\Netalliance;
 
-use Cstopery\EasyTaoKe\SuNing\SuningRequest;
-use Cstopery\EasyTaoKe\SuNing\RequestCheckUtil;
+use Douyasi\EasyTaoKe\SuNing\SuningRequest;
+use Douyasi\EasyTaoKe\SuNing\RequestCheckUtil;
 
 class SnMemberLevelGetRequest extends SuningRequest
 {

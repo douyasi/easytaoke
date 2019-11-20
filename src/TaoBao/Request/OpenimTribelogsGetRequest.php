@@ -1,8 +1,8 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao\Request;
+namespace Douyasi\EasyTaoKe\TaoBao\Request;
 
-use Cstopery\EasyTaoKe\TaoBao\RequestCheckUtil;
+use Douyasi\EasyTaoKe\TaoBao\RequestCheckUtil;
 /**
  * TOP API: taobao.openim.tribelogs.get request
  *

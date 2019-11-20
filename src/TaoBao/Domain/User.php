@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao\Domain;
+namespace Douyasi\EasyTaoKe\TaoBao\Domain;
 
 /**
  * 被设置昵称的群成员

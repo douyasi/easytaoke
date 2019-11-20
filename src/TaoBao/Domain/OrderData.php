@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao\Domain;
+namespace Douyasi\EasyTaoKe\TaoBao\Domain;
 
 /**
  * 复购订单，仅适用于手淘拉新

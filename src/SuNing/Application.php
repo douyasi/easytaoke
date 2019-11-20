@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\SuNing;
+namespace Douyasi\EasyTaoKe\SuNing;
 
 class Application
 {

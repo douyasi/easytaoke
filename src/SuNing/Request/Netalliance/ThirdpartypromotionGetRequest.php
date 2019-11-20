@@ -6,10 +6,10 @@
  * @date   2019-4-30
  */
 
-namespace Cstopery\EasyTaoKe\SuNing\Request\Netalliance;
+namespace Douyasi\EasyTaoKe\SuNing\Request\Netalliance;
 
-use Cstopery\EasyTaoKe\SuNing\SuningRequest;
-use Cstopery\EasyTaoKe\SuNing\RequestCheckUtil;
+use Douyasi\EasyTaoKe\SuNing\SuningRequest;
+use Douyasi\EasyTaoKe\SuNing\RequestCheckUtil;
 
 class ThirdpartypromotionGetRequest extends SuningRequest
 {

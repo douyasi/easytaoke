@@ -6,10 +6,10 @@
  * @date   2017-7-27
  */
 
-namespace Cstopery\EasyTaoKe\SuNing\Request\Netalliance;
+namespace Douyasi\EasyTaoKe\SuNing\Request\Netalliance;
 
-use Cstopery\EasyTaoKe\SuNing\SelectSuningRequest;
-use Cstopery\EasyTaoKe\SuNing\RequestCheckUtil;
+use Douyasi\EasyTaoKe\SuNing\SelectSuningRequest;
+use Douyasi\EasyTaoKe\SuNing\RequestCheckUtil;
 
 class MerchantcommodityQueryRequest extends SelectSuningRequest
 {

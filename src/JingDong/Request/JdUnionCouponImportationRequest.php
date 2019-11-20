@@ -1,13 +1,13 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\JingDong\Request;
+namespace Douyasi\EasyTaoKe\JingDong\Request;
 
-use Cstopery\EasyTaoKe\JingDong\RequestInterface;
+use Douyasi\EasyTaoKe\JingDong\RequestInterface;
 
 
 /**
  * Class JdUnionCouponImportationRequest
- * @package Cstopery\EasyTaoKe\JingDong\Request
+ * @package Douyasi\EasyTaoKe\JingDong\Request
  */
 class JdUnionCouponImportationRequest implements RequestInterface
 {

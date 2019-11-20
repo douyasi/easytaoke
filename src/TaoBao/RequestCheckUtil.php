@@ -1,6 +1,6 @@
 <?php
 
-namespace Cstopery\EasyTaoKe\TaoBao;
+namespace Douyasi\EasyTaoKe\TaoBao;
 
 /**
  * API入参静态检查类

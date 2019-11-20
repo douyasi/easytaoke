@@ -1,7 +1,7 @@
 <?php
-namespace Cstopery\EasyTaoKe\PinDuoDuo\Request;
+namespace Douyasi\EasyTaoKe\PinDuoDuo\Request;
 
-use Cstopery\EasyTaoKe\PinDuoDuo\RequestInterface;
+use Douyasi\EasyTaoKe\PinDuoDuo\RequestInterface;
 
 
 class DdkGoodsPromotionUrlGenerateRequest implements  RequestInterface

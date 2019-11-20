@@ -1,6 +1,6 @@
 ### 介绍
 
-Fork 自 [cstopery/easytaoke](https://github.com/cstopery/easytaoke)，移除 `Laravel` 相关依赖，使其可以适配任何遵循 `PSR-4` 规范的框架。淘宝联盟、京东联盟、多多进宝等 `SDK` 的封装类库。
+Fork 自 [Douyasi/easytaoke](https://github.com/Douyasi/easytaoke)，移除 `Laravel` 相关依赖，使其可以适配任何遵循 `PSR-4` 规范的框架。淘宝联盟、京东联盟、多多进宝等 `SDK` 的封装类库。
 
 ### 使用方法
 
@@ -16,8 +16,8 @@ composer require  "douyasi/easytaoke:dev-master"
 ```php
 <?php
 
-use Cstopery\EasyTaoKe\Factory;
-use Cstopery\EasyTaoKe\TaoBao\Request\TbkItemInfoGetRequest;
+use Douyasi\EasyTaoKe\Factory;
+use Douyasi\EasyTaoKe\TaoBao\Request\TbkItemInfoGetRequest;
 
 $taobaoConfig = [
     'app_key' => '25660213',  // app_key

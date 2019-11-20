@@ -6,10 +6,10 @@
  * @date   2014-10-16
  */
 
-namespace Cstopery\EasyTaoKe\SuNing\Request\NetallianceTx;
+namespace Douyasi\EasyTaoKe\SuNing\Request\NetallianceTx;
 
-use Cstopery\EasyTaoKe\SuNing\SuningRequest;
-use Cstopery\EasyTaoKe\SuNing\RequestCheckUtil;
+use Douyasi\EasyTaoKe\SuNing\SuningRequest;
+use Douyasi\EasyTaoKe\SuNing\RequestCheckUtil;
 
 class GetNetallianceOrderRequest extends SuningRequest
 {
