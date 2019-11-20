@@ -1,6 +1,12 @@
+douyasi/easytaoke
+-----
+
+
 ### 介绍
 
-Fork 自 [Douyasi/easytaoke](https://github.com/Douyasi/easytaoke)，移除 `Laravel` 相关依赖，使其可以适配任何遵循 `PSR-4` 规范的框架。淘宝联盟、京东联盟、多多进宝等 `SDK` 的封装类库。
+Fork 自 [cstopery/easytaoke](https://github.com/cstopery/easytaoke)，淘宝联盟、京东联盟、多多进宝等 `SDK` 的封装类库。
+
+>   分出的版本改变了原有仓库的命名空间顶域，调整了一下代码，使其符合规范与约束（使用 [php-cs-fixer-v2](https://cs.symfony.com/) 工具命令修正），移除 `Laravel` 相关依赖，使其可以适配任何遵循 `PSR-4` 规范的框架。
 
 ### 使用方法
 
