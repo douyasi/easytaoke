@@ -1,14 +1,18 @@
 {
-    "name": "cstopery/easytaoke",
+    "name": "douyasi/easytaoke",
     "type": "library",
-    "description": "easytaoke",
-    "keywords": ["sdk"],
-    "homepage": "https://github.com/cstopery/easytaoke",
+    "description": "A fork of cstopery/easytaoke. Easy marketing union promotion for Taobao, Pinduoduo and JD etc.",
+    "keywords": ["sdk", "taobao", "pinduoduo", "jingdong"],
+    "homepage": "https://github.com/douyasi/easytaoke",
     "license": "MIT",
     "authors": [
         {
             "name": "cstopery",
             "email": "1103321658@qq.com"
+        },
+        {
+            "name": "raoyc",
+            "email": "raoyc2009@gmail.com"
         }
     ],
     "require": {
