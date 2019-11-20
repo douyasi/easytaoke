@@ -35,8 +35,6 @@ class Factory
 
     /**
      * 单例获取当前对象
-     * @Author: david
-     * @Date: 2018/4/26
      * @return static
      */
     public static function getInstance()

@@ -26,8 +26,6 @@ class Application
 
     /**
      * 生成加密签名
-     * @Author: Douyasi
-     * @Date: 2018/4/26
      * @param $params
      * @return string
      */
@@ -44,8 +42,6 @@ class Application
 
     /**
      * post请求
-     * @Author: Douyasi
-     * @Date: 2018/4/26
      * @param $url
      * @return mixed
      */
@@ -85,8 +81,6 @@ class Application
 
     /**
      * 执行
-     * @Author: Douyasi
-     * @Date: 2018/4/26
      * @param $request
      * @return mixed
      */
@@ -122,8 +116,6 @@ class Application
 
     /**
      * 单例获取当前对象
-     * @Author: Douyasi
-     * @Date: 2018/4/26
      * @return static
      */
     public static function getInstance()
@@ -136,8 +128,6 @@ class Application
 
     /**
      * 魔术方法 调用不存在的静态方法时触发
-     * @Author: Douyasi
-     * @Date: 2018/4/26
      * @param $name
      * @param $arguments
      * @return mixed
