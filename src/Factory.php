@@ -67,13 +67,8 @@ class Factory
         if (!in_array ($name, ['taobao', 'jingdong', 'pinduoduo'])) {
             throw  new \InvalidArgumentException('static method is not exists');
         }
-
-        if (count ($config) == 0) {
-            $config = config ("{$this->getConfigName ()}.{$name}", []);
-        }
-        $config = $this->getConfig ($name, $config);
-
-        return $this->getClient ($name, $config);
+        $config = $this->getConfig($name, $config);
+        return $this->getClient($name, $config);
     }
 
 
@@ -93,19 +88,19 @@ class Factory
                 throw new \InvalidArgumentException('The top client requires api keys.');
             }
             $config['app_key'] = (string) $config['app_key'];
-            return array_only ($config, ['app_key', 'app_secret', 'format']);
+            return $this->arrayOnly($config, ['app_key', 'app_secret', 'format']);
         }
         if ($name == "pinduoduo") {
             if (!array_key_exists ('client_id', $config) || !array_key_exists ('client_secret', $config)) {
                 throw new \InvalidArgumentException('The pinduoduo client requires client_id and client_secret.');
             }
-            return array_only ($config, ['client_id', 'client_secret', 'format']);
+            return $this->arrayOnly($config, ['client_id', 'client_secret', 'format']);
         }
         if ($name == "jingdong") {
             if (!array_key_exists ('app_key', $config) || !array_key_exists ('app_secret', $config)) {
                 throw new \InvalidArgumentException('The jingdong client requires app_key and app_secret.');
             }
-            return array_only ($config, ['app_key', 'app_secret', 'format']);
+            return $this->arrayOnly($config, ['app_key', 'app_secret', 'format']);
         }
 
     }
@@ -142,5 +137,15 @@ class Factory
         }
     }
 
+    /**
+     * Array only
+     *
+     * @param array $array
+     * @param array $keys
+     * @return array function array_only() in laravel
+     */
+    private function arrayOnly($array, $keys) {
+        return array_intersect_key($array, array_flip((array) $keys));
+    }
 
 }
